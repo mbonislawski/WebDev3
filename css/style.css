@@ -229,6 +229,12 @@ h1, h2, h3 {
     transition: all 0.5s cubic-bezier(0.28,-0.16, 0, 1.51);
 }
 
+.mobile_menu_button_active {
+    background-color: #7cc576!important;
+    border-radius: 5px;
+    background-image: url('../img/icons/button_active.png');
+}
+
 .mobile_menu_button:hover {
     cursor: pointer;
 }

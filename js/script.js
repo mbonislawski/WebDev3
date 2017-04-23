@@ -5,6 +5,7 @@
             if(scroll > 0) {
                 nav.classList.add('sticky');
                 hamb_menu.classList.add('mobile_menu_sticky');
+
             } else {
                 nav.classList.remove('sticky');
                 hamb_menu.classList.remove('mobile_menu_sticky');
@@ -13,8 +14,9 @@
         
         function mobile_menu() {
             const mobile = document.querySelector('.mobile_menu');
+            const mobile_button = document.querySelector('.mobile_menu_button');
             mobile.classList.toggle('mobile_menu_active');
-            console.log('click');
+            mobile_button.classList.toggle('mobile_menu_button_active');
         }
         
         document.addEventListener('scroll', getScroll);
