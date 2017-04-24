@@ -301,6 +301,12 @@ h1, h2, h3 {
 }
 
 
+@media (max-width:560px) {
+    .heroimg h1 {
+        margin-top: 10px;
+    }
+}
+
 @media (max-width:396px) {
     .heroimg {
         height: 550px;
@@ -402,6 +408,12 @@ h1, h2, h3 {
 @media (max-width:412px) {
     .services {
         height: 1000px;
+    }
+}
+
+@media (max-width:395px) {
+    .services {
+        padding-top: 50px;
     }
 }
 
@@ -737,6 +749,77 @@ h1, h2, h3 {
         margin-right: auto;
         height: 500px;
     }
+}
+
+
+@media (max-width:649px) {
+    .project_description {
+        padding-top: 5px;
+    }
+}
+@media (max-width:649px) {
+    .latest_project .container {
+        margin-top: 50px;
+    }
+}
+@media (max-width:423px) {
+    .latest_project .container {
+        margin-top: 40px;
+    }    
+    .latest_project {
+        padding-top: 60px;
+    }
+}
+@media (max-width:424px) {
+     .project_description {
+        padding-top: 0;
+    }
+    .latest_project {
+        padding-top: 55px;
+    }
+    .project_row {
+        margin-top: 15px;
+        height: 80px;
+    }     
+    .project_icon {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:363px) {
+    .project_row {
+        height: 100px;
+    }
+     .latest_project {
+        padding-top: 10px;
+    }
+    .latest_project .container {
+        margin-top: 10px;
+    }    
+}
+
+@media (max-width:361px) {
+     .project_icon {
+        display: none;
+    }
+    .project_description {
+        margin: 0;
+    }
+    .project_row {
+        height: 90px;
+    }
+}
+@media (max-width:353px) {
+
+    .project_row {
+        height: 75px;
+    }
+}
+@media (max-width:343px) {
+    .latest_project {
+        height: 715px;
+    }
+
 }
 /*----------------culture--------------------*/
 
@@ -1388,7 +1471,7 @@ h1, h2, h3 {
 
 
 .social img {
-    padding-top: 9px;
+    padding-bottom: 12px;
 }
 
 .socials {
